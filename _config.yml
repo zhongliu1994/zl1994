@@ -1,10 +1,17 @@
 # Created by Jekyll Writer
-title: Your awesome title
-email: your-email@domain.com
-description: Write an awesome description for your new site here
+title: Leo Zhong
+author: Leo
+description: >-
+  I have the pursuit of Internet technology,coding, software design,finite
+  element method, flow field analysis, algorithm and other high-tech,and I am on
+  the forward road of the direction of the peak of technology.
 baseurl: /zl1994
-url: ''
 permalink: '/:year/:month/:day/:title/'
+paginate: 6
+paginate_path: '/page/:num/'
 twitter_username: jekyllwriter
 github_username: jekyllwriter
+gems:
+  - jekyll-paginate
 markdown: kramdown
+url: ''
